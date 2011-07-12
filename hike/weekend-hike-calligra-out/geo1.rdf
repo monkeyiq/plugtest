@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <ns1:Vevent xmlns:ns1="http://www.w3.org/2002/12/cal/icaltzd#" rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <ns1:dtend rdf:datatype="http://www.w3.org/2002/12/cal/tzd/America/New_York#tz">2003-01-08T14:00:00</ns1:dtend>
+    <ns1:dtstamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-12-19T20:53:57Z</ns1:dtstamp>
+    <ns1:dtstart rdf:datatype="http://www.w3.org/2002/12/cal/tzd/America/New_York#tz">2003-01-08T13:00:00</ns1:dtstart>
+    <ns1:geo>
+      <rdf:Description>
+        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0442673000e+01</rdf:first>
+        <rdf:rest>
+          <rdf:Description>
+            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-7.9945815000e+01</rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+          </rdf:Description>
+        </rdf:rest>
+      </rdf:Description>
+    </ns1:geo>
+    <ns1:sequence rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns1:sequence>
+    <ns1:summary>icalendaring #rdfig meeting</ns1:summary>
+    <ns1:uid>CDC474D4-1393-11D7-9A2C-000393914268</ns1:uid>
+    <ns1:url rdf:resource="http://kanzaki.com/works/2004/cal/0406vocab.html"/>
+  </ns1:Vevent>
+  <ns2:Vevent xmlns:ns2="http://www.w3.org/2002/12/cal/icaltzd#" rdf:about="http://www.w3.org/2002/12/cal/test/geo1#addtest">
+    <ns2:dtend rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2009-12-21T16:00:00</ns2:dtend>
+    <ns2:dtstart rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2009-12-21T13:00:00</ns2:dtstart>
+    <ns2:summary>Add Test</ns2:summary>
+    <ns2:uid>dec09#59b19deb-2a2e-4712-9ef3-6b9b77da272c</ns2:uid>
+  </ns2:Vevent>
+  <ns3:Vevent xmlns:ns3="http://www.w3.org/2002/12/cal/icaltzd#" rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09">
+    <ns3:dtend rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2009-12-16T16:00:00</ns3:dtend>
+    <ns3:dtstart rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2009-12-16T13:00:00</ns3:dtstart>
+    <ns3:summary>Lets party like its 1999</ns3:summary>
+    <ns3:uid>dec09#8c3349c4-b240-4d50-997e-bd0d28044010</ns3:uid>
+  </ns3:Vevent>
+  <ns4:Vtimezone xmlns:ns4="http://www.w3.org/2002/12/cal/icaltzd#" rdf:about="http://www.w3.org/2002/12/cal/tzd/America/New_York#tz">
+    <ns4:daylight>
+      <rdf:Description>
+        <ns4:dtstart rdf:datatype="http://www.w3.org/2002/12/cal/icaltzd#dateTime">1970-04-05T02:00:00</ns4:dtstart>
+        <ns4:rrule>
+          <rdf:Description>
+            <ns4:byday>1SU</ns4:byday>
+            <ns4:bymonth>4</ns4:bymonth>
+            <ns4:freq>YEARLY</ns4:freq>
+            <ns4:interval rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns4:interval>
+          </rdf:Description>
+        </ns4:rrule>
+        <ns4:tzname>EDT</ns4:tzname>
+        <ns4:tzoffsetfrom>-0500</ns4:tzoffsetfrom>
+        <ns4:tzoffsetto>-0400</ns4:tzoffsetto>
+      </rdf:Description>
+    </ns4:daylight>
+    <ns4:standard>
+      <rdf:Description>
+        <ns4:dtstart rdf:datatype="http://www.w3.org/2002/12/cal/icaltzd#dateTime">1970-10-25T02:00:00</ns4:dtstart>
+        <ns4:rrule>
+          <rdf:Description>
+            <ns4:byday>-1SU</ns4:byday>
+            <ns4:bymonth>10</ns4:bymonth>
+            <ns4:freq>YEARLY</ns4:freq>
+            <ns4:interval rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns4:interval>
+          </rdf:Description>
+        </ns4:rrule>
+        <ns4:tzname>EST</ns4:tzname>
+        <ns4:tzoffsetfrom>-0400</ns4:tzoffsetfrom>
+        <ns4:tzoffsetto>-0500</ns4:tzoffsetto>
+      </rdf:Description>
+    </ns4:standard>
+    <ns4:tzid>/softwarestudio.org/Olson_20011030_5/America/New_York</ns4:tzid>
+    <ns4:x-lic-location>America/New_York</ns4:x-lic-location>
+  </ns4:Vtimezone>
+  <ns5:Vcalendar xmlns:ns5="http://www.w3.org/2002/12/cal/icaltzd#">
+    <ns5:calscale>GREGORIAN</ns5:calscale>
+    <ns5:component rdf:resource="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268"/>
+    <ns5:component rdf:resource="http://www.w3.org/2002/12/cal/test/geo1#dec09"/>
+    <ns5:component rdf:resource="http://www.w3.org/2002/12/cal/tzd/America/New_York#tz"/>
+    <ns5:prodid>-//Dan C//edited with emacs//EN</ns5:prodid>
+    <ns5:version>2.0</ns5:version>
+  </ns5:Vcalendar>
+</rdf:RDF>

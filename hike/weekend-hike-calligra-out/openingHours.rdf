@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <ns1:Vcalendar xmlns:ns1="http://www.w3.org/2002/12/cal/icaltzd#">
+    <ns1:component>
+      <ns1:Vevent>
+        <ns1:dtend rdf:datatype="http://www.w3.org/2002/12/cal/icaltzd#dateTime">2003-01-01T23:00:00</ns1:dtend>
+        <ns1:dtstart rdf:datatype="http://www.w3.org/2002/12/cal/icaltzd#dateTime">2003-01-01T11:30:00</ns1:dtstart>
+        <ns1:rrule>
+          <rdf:Description>
+            <ns1:byday>WE,TH,FR,SA,SU</ns1:byday>
+            <ns1:freq>WEEKLY</ns1:freq>
+          </rdf:Description>
+        </ns1:rrule>
+      </ns1:Vevent>
+    </ns1:component>
+    <ns1:component>
+      <ns1:Vevent>
+        <ns1:dtend rdf:datatype="http://www.w3.org/2002/12/cal/icaltzd#dateTime">2003-01-01T23:00:00</ns1:dtend>
+        <ns1:dtstart rdf:datatype="http://www.w3.org/2002/12/cal/icaltzd#dateTime">2003-01-01T16:00:00</ns1:dtstart>
+        <ns1:rrule>
+          <rdf:Description>
+            <ns1:byday>TU</ns1:byday>
+            <ns1:freq>WEEKLY</ns1:freq>
+          </rdf:Description>
+        </ns1:rrule>
+      </ns1:Vevent>
+    </ns1:component>
+    <ns1:prodid>-//W3C//RDF Calendar Test//EN</ns1:prodid>
+  </ns1:Vcalendar>
+</rdf:RDF>

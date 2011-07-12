@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://www.example.org/geo1">
+    <ns0:path xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">geo1.rdf</ns0:path>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geo1">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#MetaDataFile"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geo1">
+    <rdf:type rdf:resource="http://www.example.org/geo1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:samwise">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">samwise</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:samwise">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">samwise1</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:samwise">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">samwise1b</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:samwise">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">samwise2</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:samwise">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">samwise3</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:samwise">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">samwise4</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:samwise">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:samwise">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:samwise">
+    <ns0:homepage xmlns:ns0="http://xmlns.com/foaf/0.1/" rdf:resource="http://en.wikipedia.org/wiki/Samwise_Gamgee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:samwise">
+    <ns0:name xmlns:ns0="http://xmlns.com/foaf/0.1/">Samwise Gamgee</ns0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:samwise">
+    <ns0:nick xmlns:ns0="http://xmlns.com/foaf/0.1/">Sam</ns0:nick>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:samwise">
+    <ns0:phone xmlns:ns0="http://xmlns.com/foaf/0.1/">tel:88 43243242</ns0:phone>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#addtest">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">geo1#addtest</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#addtest">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#addtest">
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#addtest">
+    <ns0:dtend xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2009-12-21T16:00:00</ns0:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#addtest">
+    <ns0:dtstart xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2009-12-21T13:00:00</ns0:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#addtest">
+    <ns0:summary xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">Add Test</ns0:summary>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#addtest">
+    <ns0:uid xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">dec09#59b19deb-2a2e-4712-9ef3-6b9b77da272c</ns0:uid>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r1">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="uri:example-element-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r1">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="uri:example-element-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r1">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="uri:example-element-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r1">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="uri:example-element-x"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r1">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="uri:dan84"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r1">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="uri:frodo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r1">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="uri:samwise"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r1">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="uri:gollum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r1">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="uri:1984-winston"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r1">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="uri:1984-obrien"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r1">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r1">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="http://www.w3.org/2002/12/cal/test/geo1#dec09"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r1">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="http://www.w3.org/2002/12/cal/test/geo1#addtest"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r1">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="uri:james"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r1">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="uri:joyce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r1">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="uri:mark"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r1">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="uri:campingtime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r1">
+    <ns0:path xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">content.xml</ns0:path>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r1">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#ContentFile"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r2">
+    <ns0:lat xmlns:ns0="http://www.w3.org/2003/01/geo/wgs84_pos#">51.47026</ns0:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r2">
+    <ns0:long xmlns:ns0="http://www.w3.org/2003/01/geo/wgs84_pos#">-2.59466</ns0:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r3">
+    <ns0:lat xmlns:ns0="http://www.w3.org/2003/01/geo/wgs84_pos#">51.47026</ns0:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r3">
+    <ns0:long xmlns:ns0="http://www.w3.org/2003/01/geo/wgs84_pos#">-2.59466</ns0:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/openingHours">
+    <ns0:path xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">openingHours.rdf</ns0:path>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/openingHours">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#MetaDataFile"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r5">
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-79.945815</rdf:first>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r5">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/tzd/America/New_York#tz">
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vtimezone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/tzd/America/New_York#tz">
+    <ns0:daylight xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:resource="r1310458476r21783r9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/tzd/America/New_York#tz">
+    <ns0:standard xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:resource="r1310458476r21783r7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/tzd/America/New_York#tz">
+    <ns0:tzid xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">/softwarestudio.org/Olson_20011030_5/America/New_York</ns0:tzid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/tzd/America/New_York#tz">
+    <ns0:x-lic-location xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">America/New_York</ns0:x-lic-location>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r7">
+    <ns0:dtstart xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/icaltzd#dateTime">1970-10-25T02:00:00</ns0:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r7">
+    <ns0:rrule xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:resource="r1310458476r21783r8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r7">
+    <ns0:tzname xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">EST</ns0:tzname>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r7">
+    <ns0:tzoffsetfrom xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">-0400</ns0:tzoffsetfrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r7">
+    <ns0:tzoffsetto xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">-0500</ns0:tzoffsetto>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r8">
+    <ns0:byday xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">-1SU</ns0:byday>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r8">
+    <ns0:bymonth xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">10</ns0:bymonth>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r8">
+    <ns0:freq xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">YEARLY</ns0:freq>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r8">
+    <ns0:interval xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns0:interval>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r9">
+    <ns0:dtstart xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/icaltzd#dateTime">1970-04-05T02:00:00</ns0:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r9">
+    <ns0:rrule xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:resource="r1310458476r21783r10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r9">
+    <ns0:tzname xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">EDT</ns0:tzname>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r9">
+    <ns0:tzoffsetfrom xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">-0500</ns0:tzoffsetfrom>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r9">
+    <ns0:tzoffsetto xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">-0400</ns0:tzoffsetto>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/1">
+    <ns0:path xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">data.rdf</ns0:path>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/1">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#MetaDataFile"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/1">
+    <rdf:type rdf:resource="http://www.example.org/2#qname"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r4">
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.442673</rdf:first>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r4">
+    <rdf:rest rdf:resource="r1310458476r21783r5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">geo1</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">geo1r1</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">geo1r2</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <ns0:dtend xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/tzd/America/New_York#tz">2003-01-08T14:00:00</ns0:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <ns0:dtstamp xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-12-19T20:53:57Z</ns0:dtstamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <ns0:dtstart xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/tzd/America/New_York#tz">2003-01-08T13:00:00</ns0:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <ns0:geo xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:resource="r1310458476r21783r4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <ns0:sequence xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns0:sequence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <ns0:summary xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">icalendaring #rdfig meeting</ns0:summary>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <ns0:uid xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">CDC474D4-1393-11D7-9A2C-000393914268</ns0:uid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <ns0:url xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:resource="http://kanzaki.com/works/2004/cal/0406vocab.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vcalendar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r11">
+    <ns0:component xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:resource="r1310458476r21783r12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r11">
+    <ns0:component xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:resource="r1310458476r21783r13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r11">
+    <ns0:prodid xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">-//W3C//RDF Calendar Test//EN</ns0:prodid>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:joyce">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">joyce1</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:joyce">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">joyce2</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:joyce">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">joyce3</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:joyce">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:joyce">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:joyce">
+    <ns0:homepage xmlns:ns0="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.example.com/upintheair"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:joyce">
+    <ns0:name xmlns:ns0="http://xmlns.com/foaf/0.1/">Joyce Reitman</ns0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:joyce">
+    <ns0:nick xmlns:ns0="http://xmlns.com/foaf/0.1/">Joyce</ns0:nick>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:joyce">
+    <ns0:phone xmlns:ns0="http://xmlns.com/foaf/0.1/">tel:11 4342343 32234</ns0:phone>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danbri.org/">
+    <ns0:title xmlns:ns0="http://purl.org/dc/elements/1.1/">Dan's home page</ns0:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r10">
+    <ns0:byday xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">1SU</ns0:byday>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r10">
+    <ns0:bymonth xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">4</ns0:bymonth>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r10">
+    <ns0:freq xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">YEARLY</ns0:freq>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r10">
+    <ns0:interval xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns0:interval>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:mark">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">mark1</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:mark">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">mark2</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:mark">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">mark3</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:mark">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:mark">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:mark">
+    <ns0:based_near xmlns:ns0="http://xmlns.com/foaf/0.1/" rdf:resource="r1310458476r21783r3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:mark">
+    <ns0:homepage xmlns:ns0="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.example.com/satou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:mark">
+    <ns0:name xmlns:ns0="http://xmlns.com/foaf/0.1/">Mark Toyama</ns0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:mark">
+    <ns0:nick xmlns:ns0="http://xmlns.com/foaf/0.1/">Mark</ns0:nick>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:mark">
+    <ns0:phone xmlns:ns0="http://xmlns.com/foaf/0.1/">tel:81 911 999 000</ns0:phone>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:gollum">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">gollum1</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:gollum">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:gollum">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:gollum">
+    <ns0:homepage xmlns:ns0="http://xmlns.com/foaf/0.1/" rdf:resource="http://en.wikipedia.org/wiki/Gollum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:gollum">
+    <ns0:name xmlns:ns0="http://xmlns.com/foaf/0.1/">Gollum</ns0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:gollum">
+    <ns0:nick xmlns:ns0="http://xmlns.com/foaf/0.1/">Gollum</ns0:nick>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:gollum">
+    <ns0:phone xmlns:ns0="http://xmlns.com/foaf/0.1/">tel:11 1322342</ns0:phone>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:example-element-1">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">id_cite1</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:example-element-1">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:example-element-2">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">id_world_r1</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:example-element-2">
+    <ns0:name xmlns:ns0="http://www.example.org/xmlns/ex#" rdf:resource="uri:example-element-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:example-element-2">
+    <ns0:wikiPage xmlns:ns0="http://www.example.org/xmlns/ex#" rdf:resource="http://en.wikipedia.org/wiki/Earth/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:example-element-2">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:example-element-3">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">id_earth_r1</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:example-element-3">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r12">
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r12">
+    <ns0:dtend xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/icaltzd#dateTime">2003-01-01T23:00:00</ns0:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r12">
+    <ns0:dtstart xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/icaltzd#dateTime">2003-01-01T16:00:00</ns0:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r12">
+    <ns0:rrule xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:resource="r1310458476r21783r14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="data.rdf#dan">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="data.rdf#dan">
+    <ns0:homepage xmlns:ns0="http://xmlns.com/foaf/0.1/" rdf:resource="http://danbri.org/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="data.rdf#dan">
+    <ns0:img xmlns:ns0="http://xmlns.com/foaf/0.1/" rdf:resource="/images/me.jpg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="data.rdf#dan">
+    <ns0:mbox_sha1sum xmlns:ns0="http://xmlns.com/foaf/0.1/">241021fb0e6289f92815fc210f9e9137262c252e</ns0:mbox_sha1sum>
+  </rdf:Description>
+  <rdf:Description rdf:about="data.rdf#dan">
+    <ns0:name xmlns:ns0="http://xmlns.com/foaf/0.1/">Dan Brickley</ns0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="data.rdf#dan">
+    <ns0:phone xmlns:ns0="http://xmlns.com/foaf/0.1/">tel:123456789</ns0:phone>
+  </rdf:Description>
+  <rdf:Description rdf:about="data.rdf#dan">
+    <ns0:phone xmlns:ns0="http://xmlns.com/foaf/0.1/">tel:1234 2345</ns0:phone>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r13">
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r13">
+    <ns0:dtend xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/icaltzd#dateTime">2003-01-01T23:00:00</ns0:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r13">
+    <ns0:dtstart xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/icaltzd#dateTime">2003-01-01T11:30:00</ns0:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r13">
+    <ns0:rrule xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:resource="r1310458476r21783r15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r14">
+    <ns0:byday xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">TU</ns0:byday>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r14">
+    <ns0:freq xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">WEEKLY</ns0:freq>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:dan84">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">dan84</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:dan84">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:dan84">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:dan84">
+    <ns0:seeAlso xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http:/danbri.org/foaf.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:dan84">
+    <ns0:based_near xmlns:ns0="http://xmlns.com/foaf/0.1/" rdf:resource="r1310458476r21783r2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:dan84">
+    <ns0:homepage xmlns:ns0="http://xmlns.com/foaf/0.1/" rdf:resource="http://danbri.org/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:dan84">
+    <ns0:name xmlns:ns0="http://xmlns.com/foaf/0.1/">Dan Brickley Geotagged</ns0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:dan84">
+    <ns0:phone xmlns:ns0="http://xmlns.com/foaf/0.1/">tel:123456700</ns0:phone>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vcalendar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r6">
+    <ns0:calscale xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">GREGORIAN</ns0:calscale>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r6">
+    <ns0:component xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:resource="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r6">
+    <ns0:component xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:resource="http://www.w3.org/2002/12/cal/test/geo1#dec09"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r6">
+    <ns0:component xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:resource="http://www.w3.org/2002/12/cal/tzd/America/New_York#tz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r6">
+    <ns0:prodid xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">-//Dan C//edited with emacs//EN</ns0:prodid>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r6">
+    <ns0:version xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">2.0</ns0:version>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:1984-winston">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">1984-winston</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:1984-winston">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:1984-winston">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:1984-winston">
+    <ns0:homepage xmlns:ns0="http://xmlns.com/foaf/0.1/" rdf:resource="http://en.wikipedia.org/wiki/Winston_Smith"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:1984-winston">
+    <ns0:name xmlns:ns0="http://xmlns.com/foaf/0.1/">Winston Smith</ns0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:1984-winston">
+    <ns0:nick xmlns:ns0="http://xmlns.com/foaf/0.1/">Winston</ns0:nick>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:1984-obrien">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">1984-obrien</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:1984-obrien">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:1984-obrien">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:1984-obrien">
+    <ns0:homepage xmlns:ns0="http://xmlns.com/foaf/0.1/" rdf:resource="http://en.wikipedia.org/wiki/O%27Brien_%281984%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:1984-obrien">
+    <ns0:name xmlns:ns0="http://xmlns.com/foaf/0.1/">O'Brien</ns0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:1984-obrien">
+    <ns0:nick xmlns:ns0="http://xmlns.com/foaf/0.1/">O'Brien</ns0:nick>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:campingtime">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">campingtime1</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:campingtime">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">campingtime2</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:campingtime">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">campingtime3</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:campingtime">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:campingtime">
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:campingtime">
+    <ns0:dtend xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2010-01-26T16:00:00</ns0:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:campingtime">
+    <ns0:dtstart xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2010-01-26T13:00:00</ns0:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:campingtime">
+    <ns0:geo xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:resource="r1310458476r21783r4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:campingtime">
+    <ns0:summary xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">Weekend Camping Trip</ns0:summary>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:campingtime">
+    <ns0:uid xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">uri:campingtime</ns0:uid>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r15">
+    <ns0:byday xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">WE,TH,FR,SA,SU</ns0:byday>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310458476r21783r15">
+    <ns0:freq xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">WEEKLY</ns0:freq>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:frodo">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">frodo</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:frodo">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">frodo1</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:frodo">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">frodo2</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:frodo">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">frodo3</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:frodo">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:frodo">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:frodo">
+    <ns0:homepage xmlns:ns0="http://xmlns.com/foaf/0.1/" rdf:resource="uri:the-shire"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:frodo">
+    <ns0:name xmlns:ns0="http://xmlns.com/foaf/0.1/">Frodo Baggins</ns0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:frodo">
+    <ns0:nick xmlns:ns0="http://xmlns.com/foaf/0.1/">Frodo</ns0:nick>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:frodo">
+    <ns0:phone xmlns:ns0="http://xmlns.com/foaf/0.1/">tel:44 2324543</ns0:phone>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:example-element-x">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">hi</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:example-element-x">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:51f203ce-a9bf-11de-8f3d-001cc09d970a">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="r1310458476r21783r1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:51f203ce-a9bf-11de-8f3d-001cc09d970a">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="http://www.example.org/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:51f203ce-a9bf-11de-8f3d-001cc09d970a">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="http://www.example.org/geo1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:51f203ce-a9bf-11de-8f3d-001cc09d970a">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="http://www.example.org/openingHours"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:51f203ce-a9bf-11de-8f3d-001cc09d970a">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/common#Package"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:51f203ce-a9bf-11de-8f3d-001cc09d970a">
+    <rdf:type rdf:resource="http://www.example.org/documents/about_the_world"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:james">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">james1</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:james">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">james2</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:james">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">james3</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:james">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:james">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:james">
+    <ns0:homepage xmlns:ns0="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.example.com/James"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:james">
+    <ns0:name xmlns:ns0="http://xmlns.com/foaf/0.1/">James Smith</ns0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:james">
+    <ns0:nick xmlns:ns0="http://xmlns.com/foaf/0.1/">James</ns0:nick>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:james">
+    <ns0:phone xmlns:ns0="http://xmlns.com/foaf/0.1/">tel:44 2324543</ns0:phone>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">geo1#dec09</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">geo1#dec09r1</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">geo1#dec09r2</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">geo1#dec09r3</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">geo1#dec09r4</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">geo1#dec09r5</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">geo1#dec09r6</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">geo1#dec09r7</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09">
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09">
+    <ns0:dtend xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2009-12-16T16:00:00</ns0:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09">
+    <ns0:dtstart xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2009-12-16T13:00:00</ns0:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09">
+    <ns0:summary xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">Lets party like its 1999</ns0:summary>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09">
+    <ns0:uid xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">dec09#8c3349c4-b240-4d50-997e-bd0d28044010</ns0:uid>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:example-element-1">
+    <ns0:position xmlns:ns0="http://docs.oasis-open.org/prototype/opendocument/citation#">1</ns0:position>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:example-element-1">
+    <ns0:source xmlns:ns0="http://dublincore.org/documents/dcmi-terms/#" rdf:resource="http://en.wikipedia.org/wiki/Earth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:example-element-1">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/prototype/opendocument/citation#Reference"/>
+  </rdf:Description>
+</rdf:RDF>

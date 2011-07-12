@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://danbri.org/">
+    <ns1:title xmlns:ns1="http://purl.org/dc/elements/1.1/">Dan's home page</ns1:title>
+  </rdf:Description>
+  <ns2:Person xmlns:ns2="http://xmlns.com/foaf/0.1/" rdf:about="http://soprano.sourceforge.net/dummyBaseUri#dan">
+    <ns2:homepage rdf:resource="http://danbri.org/"/>
+    <ns2:img rdf:resource="http://soprano.sourceforge.net/images/me.jpg"/>
+    <ns2:mbox_sha1sum>241021fb0e6289f92815fc210f9e9137262c252e</ns2:mbox_sha1sum>
+    <ns2:name>Dan Brickley</ns2:name>
+    <ns2:phone>tel:1234 2345</ns2:phone>
+    <ns2:phone>tel:123456789</ns2:phone>
+  </ns2:Person>
+  <ns3:Person xmlns:ns3="http://xmlns.com/foaf/0.1/" rdf:about="uri:1984-obrien">
+    <ns3:homepage rdf:resource="http://en.wikipedia.org/wiki/O%2527Brien_%25281984%2529"/>
+    <ns3:name>O'Brien</ns3:name>
+    <ns3:nick>O'Brien</ns3:nick>
+  </ns3:Person>
+  <ns4:Person xmlns:ns4="http://xmlns.com/foaf/0.1/" rdf:about="uri:1984-winston">
+    <ns4:homepage rdf:resource="http://en.wikipedia.org/wiki/Winston_Smith"/>
+    <ns4:name>Winston Smith</ns4:name>
+    <ns4:nick>Winston</ns4:nick>
+  </ns4:Person>
+  <ns5:Vevent xmlns:ns5="http://www.w3.org/2002/12/cal/icaltzd#" rdf:about="uri:campingtime">
+    <ns5:dtend rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2010-01-26T16:00:00</ns5:dtend>
+    <ns5:dtstart rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2010-01-26T13:00:00</ns5:dtstart>
+    <ns5:geo>
+      <rdf:Description>
+        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0442673000e+01</rdf:first>
+        <rdf:rest>
+          <rdf:Description>
+            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-7.9945815000e+01</rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+          </rdf:Description>
+        </rdf:rest>
+      </rdf:Description>
+    </ns5:geo>
+    <ns5:summary>Weekend Camping Trip</ns5:summary>
+    <ns5:uid>uri:campingtime</ns5:uid>
+  </ns5:Vevent>
+  <ns6:Person xmlns:ns6="http://xmlns.com/foaf/0.1/" rdf:about="uri:dan84">
+    <ns7:seeAlso xmlns:ns7="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http:/danbri.org/foaf.rdf"/>
+    <ns6:based_near>
+      <rdf:Description>
+        <ns8:lat xmlns:ns8="http://www.w3.org/2003/01/geo/wgs84_pos#">51.47026</ns8:lat>
+        <ns9:long xmlns:ns9="http://www.w3.org/2003/01/geo/wgs84_pos#">-2.59466</ns9:long>
+      </rdf:Description>
+    </ns6:based_near>
+    <ns6:homepage rdf:resource="http://danbri.org/"/>
+    <ns6:name>Dan Brickley Geotagged</ns6:name>
+    <ns6:phone>tel:123456700</ns6:phone>
+  </ns6:Person>
+  <rdf:Description rdf:about="uri:example-element-2">
+    <ns10:name xmlns:ns10="http://www.example.org/xmlns/ex#" rdf:resource="uri:example-element-3"/>
+    <ns11:wikiPage xmlns:ns11="http://www.example.org/xmlns/ex#" rdf:resource="http://en.wikipedia.org/wiki/Earth/"/>
+  </rdf:Description>
+  <ns12:Person xmlns:ns12="http://xmlns.com/foaf/0.1/" rdf:about="uri:frodo">
+    <ns12:homepage rdf:resource="uri:the-shire"/>
+    <ns12:name>Frodo Baggins</ns12:name>
+    <ns12:nick>Frodo</ns12:nick>
+    <ns12:phone>tel:44 2324543</ns12:phone>
+  </ns12:Person>
+  <ns13:Person xmlns:ns13="http://xmlns.com/foaf/0.1/" rdf:about="uri:gollum">
+    <ns13:homepage rdf:resource="http://en.wikipedia.org/wiki/Gollum"/>
+    <ns13:name>Gollum</ns13:name>
+    <ns13:nick>Gollum</ns13:nick>
+    <ns13:phone>tel:11 1322342</ns13:phone>
+  </ns13:Person>
+  <ns14:Person xmlns:ns14="http://xmlns.com/foaf/0.1/" rdf:about="uri:james">
+    <ns14:homepage rdf:resource="http://www.example.com/James"/>
+    <ns14:name>James Smith</ns14:name>
+    <ns14:nick>James</ns14:nick>
+    <ns14:phone>tel:44 2324543</ns14:phone>
+  </ns14:Person>
+  <ns15:Person xmlns:ns15="http://xmlns.com/foaf/0.1/" rdf:about="uri:joyce">
+    <ns15:homepage rdf:resource="http://www.example.com/upintheair"/>
+    <ns15:name>Joyce Reitman</ns15:name>
+    <ns15:nick>Joyce</ns15:nick>
+    <ns15:phone>tel:11 4342343 32234</ns15:phone>
+  </ns15:Person>
+  <ns16:Person xmlns:ns16="http://xmlns.com/foaf/0.1/" rdf:about="uri:mark">
+    <ns16:based_near>
+      <rdf:Description>
+        <ns17:lat xmlns:ns17="http://www.w3.org/2003/01/geo/wgs84_pos#">51.47026</ns17:lat>
+        <ns18:long xmlns:ns18="http://www.w3.org/2003/01/geo/wgs84_pos#">-2.59466</ns18:long>
+      </rdf:Description>
+    </ns16:based_near>
+    <ns16:homepage rdf:resource="http://www.example.com/satou"/>
+    <ns16:name>Mark Toyama</ns16:name>
+    <ns16:nick>Mark</ns16:nick>
+    <ns16:phone>tel:81 911 999 000</ns16:phone>
+  </ns16:Person>
+  <ns19:Person xmlns:ns19="http://xmlns.com/foaf/0.1/" rdf:about="uri:samwise">
+    <ns19:homepage rdf:resource="http://en.wikipedia.org/wiki/Samwise_Gamgee"/>
+    <ns19:name>Samwise Gamgee</ns19:name>
+    <ns19:nick>Sam</ns19:nick>
+    <ns19:phone>tel:88 43243242</ns19:phone>
+  </ns19:Person>
+  <ns20:Reference xmlns:ns20="http://docs.oasis-open.org/prototype/opendocument/citation#" rdf:about="urn:example-element-1">
+    <ns20:position>1</ns20:position>
+    <ns21:source xmlns:ns21="http://dublincore.org/documents/dcmi-terms/#" rdf:resource="http://en.wikipedia.org/wiki/Earth"/>
+  </ns20:Reference>
+  <ns22:Package xmlns:ns22="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:about="urn:uuid:51f203ce-a9bf-11de-8f3d-001cc09d970a">
+    <rdf:type rdf:resource="http://www.example.org/documents/about_the_world"/>
+  </ns22:Package>
+</rdf:RDF>

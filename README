@@ -1,0 +1,57 @@
+This was originally put together by Ben Martin in 2011 for the Berlin
+ODF plugfest.
+
+Each directory contains the original odt source file and the output
+form saving using calligra and abiword, both as an odt file and
+expanded into a subdirectory for ease of exploration.
+
+For example, the hike directory the weekend-hike.odt is the original,
+weekend-hike-abiword-out.odt is the result of loading weekend-hike.odt
+in abiword and saving it again. Likewise weekend-hike-calligra-out.odt
+is the result of loading weekend-hike.odt and saving it again.
+
+Note that abiword saves the RDF back into manifest.rdf instead of the
+individual source RDF/XML files from which the triples came.
+
+Versions:
+Abiword: 2.9.1
+
+Calligra is from git at around the 12th of July 2011.
+More precisely:
+$ cat .git/refs/heads/master
+0a3741ba8dceae49bab1944cae45367fb8e87dce
+
+
+For comparison of RDF/XML, one might like to thse the rdf-cat script.
+It has evolved from direct redland use to going through soprano.
+Soprano should already be available on any recent KDE 4.x desktop
+machine. If not, one might wish to use the redland "rdfproc" commands
+left in comments instead.
+
+$ cat /home/ben/bin/rdf-cat
+#!/bin/bash
+
+TMPDIR=print-rdf-`id -u`
+rm -rf /tmp/$TMPDIR 
+TMPDIR=/tmp/$TMPDIR
+mkdir  /$TMPDIR
+
+SRCDIR=`pwd`
+cd /$TMPDIR
+
+FMT=${2:-rdfxml}
+
+sopranocmd --backend redland  --serialization $FMT import "$SRCDIR/$1"
+sopranocmd --backend redland  list
+
+#rdfproc soprano parse "$SRCDIR/$1" $2
+#rdfproc soprano print | sort
+
+
+FWIW the original odt file was generated from source files using a command
+like the following:
+
+$ cd zip_contents ; \
+  find . -name .svn -prune -or \
+   -name "*~" -or \
+   -print | zip -@ ../weekend-hike.odt
