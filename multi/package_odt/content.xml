@@ -47,9 +47,10 @@
       </text:p>
 
       <text:p xml:id="widetime">
-	This paragraph has a time associated. The next reference to wing-b will
-	be also be associated with more specific time information and a location.
-	Let's meet in <text:meta xml:id="wingb">Wing-B at 11am</text:meta>.
+	This paragraph has a time associated. The next reference to
+	wing-b will be also be associated with more specific time
+	information and a location. Let's meet in <text:meta
+	xml:id="wingb">Wing-B at 11am</text:meta>.
       </text:p>
 
     </office:text>

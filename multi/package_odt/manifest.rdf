@@ -153,6 +153,27 @@
 					<odf:Element rdf:about="uri:campingtime" pkg:idref="campingtime3"/>
 				</pkg:hasPart>
 
+				<!-- 
+				     This links from the RDF subject URI to the xml:id in content.xml.
+				     the rdf:about is the subject URL
+				     the pkg:idref is the xml:id from content.xml
+				     .
+				     An RDF subject can be linked to many parts of the content.xml 
+				     by using different xml:id values and including many of these linkage
+				     triples.
+				     .
+				     For example:
+				     <pkg:hasPart>				
+				       <odf:Element rdf:about="uri:widetime" pkg:idref="widetime1"/>
+				       <odf:Element rdf:about="uri:widetime" pkg:idref="widetime2"/>
+				     </pkg:hasPart>
+				-->
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:widetime" pkg:idref="widetime"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:wingb" pkg:idref="wingb"/>
+				</pkg:hasPart>
 
 
 
