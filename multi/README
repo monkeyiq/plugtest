@@ -1,0 +1,3 @@
+This example allows multiple semantic objects to be in context at the
+same time. For example, two locations in scope for a particular text:p
+and text:meta combination.

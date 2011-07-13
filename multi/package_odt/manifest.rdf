@@ -1,0 +1,463 @@
+<?xml version="1.0"?>
+<rdf:RDF 
+	xmlns:pkg="http://docs.oasis-open.org/opendocument/meta/package/common#"
+	xmlns:odf="http://docs.oasis-open.org/opendocument/meta/package/odf#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://dublincore.org/documents/dcmi-terms/#"
+	xmlns:cite="http://docs.oasis-open.org/prototype/opendocument/citation#"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:ex="http://www.example.org/xmlns/ex#"
+        xmlns:geo84="http://www.w3.org/2003/01/geo/wgs84_pos#" 
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/" 
+	>
+	<pkg:Package rdf:about="urn:uuid:51f203ce-a9bf-11de-8f3d-001cc09d970a">
+		<pkg:hasPart>
+			<odf:ContentFile pkg:path="content.xml">
+				<pkg:hasPart>
+					<odf:Element rdf:about="uri:example-element-1" 
+						pkg:idref="id_cite1"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:example-element-2" 
+						pkg:idref="id_world_r1"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:example-element-3" 
+						pkg:idref="id_earth_r1"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:example-element-x" 
+						pkg:idref="hi"/>
+				</pkg:hasPart>
+
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:dan84" pkg:idref="dan84"/>
+				</pkg:hasPart>
+
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:frodo" pkg:idref="frodo"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:frodo" pkg:idref="frodo1"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:frodo" pkg:idref="frodo2"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:frodo" pkg:idref="frodo3"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:samwise" pkg:idref="samwise"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:samwise" pkg:idref="samwise1"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:samwise" pkg:idref="samwise1b"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:samwise" pkg:idref="samwise2"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:samwise" pkg:idref="samwise3"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:samwise" pkg:idref="samwise4"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:gollum" pkg:idref="gollum1"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:1984-winston" pkg:idref="1984-winston"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:1984-obrien" pkg:idref="1984-obrien"/>
+				</pkg:hasPart>
+
+				<pkg:hasPart>				
+					<odf:Element rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268" pkg:idref="geo1"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268" pkg:idref="geo1r1"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268" pkg:idref="geo1r2"/>
+				</pkg:hasPart>
+
+				<pkg:hasPart>				
+					<odf:Element rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09" pkg:idref="geo1#dec09"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09" pkg:idref="geo1#dec09r1"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09" pkg:idref="geo1#dec09r2"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09" pkg:idref="geo1#dec09r3"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09" pkg:idref="geo1#dec09r4"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09" pkg:idref="geo1#dec09r5"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09" pkg:idref="geo1#dec09r6"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09" pkg:idref="geo1#dec09r7"/>
+				</pkg:hasPart>
+
+				<pkg:hasPart>				
+					<odf:Element rdf:about="http://www.w3.org/2002/12/cal/test/geo1#addtest" pkg:idref="geo1#addtest"/>
+				</pkg:hasPart>
+
+
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:james" pkg:idref="james1"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:james" pkg:idref="james2"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:james" pkg:idref="james3"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:joyce" pkg:idref="joyce1"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:joyce" pkg:idref="joyce2"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:joyce" pkg:idref="joyce3"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:mark" pkg:idref="mark1"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:mark" pkg:idref="mark2"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:mark" pkg:idref="mark3"/>
+				</pkg:hasPart>
+
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:campingtime" pkg:idref="campingtime1"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:campingtime" pkg:idref="campingtime2"/>
+				</pkg:hasPart>
+				<pkg:hasPart>				
+					<odf:Element rdf:about="uri:campingtime" pkg:idref="campingtime3"/>
+				</pkg:hasPart>
+
+
+
+
+			</odf:ContentFile>
+		</pkg:hasPart>
+
+	</pkg:Package>
+
+  <rdf:Description rdf:nodeID="r1260339662r18818r1">
+    <ns0:prodid xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">-//W3C//RDF Calendar Test//EN</ns0:prodid>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339662r18818r1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vcalendar"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339662r18818r1">
+    <ns0:component xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:nodeID="r1260339662r18818r2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339662r18818r1">
+    <ns0:component xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:nodeID="r1260339662r18818r4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339662r18818r2">
+    <ns0:dtend xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/icaltzd#dateTime">2003-01-01T23:00:00</ns0:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339662r18818r2">
+    <ns0:rrule xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:nodeID="r1260339662r18818r3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339662r18818r2">
+    <ns0:dtstart xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/icaltzd#dateTime">2003-01-01T16:00:00</ns0:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339662r18818r2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339662r18818r3">
+    <ns0:freq xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">WEEKLY</ns0:freq>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339662r18818r3">
+    <ns0:byday xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">TU</ns0:byday>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339662r18818r4">
+    <ns0:dtend xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/icaltzd#dateTime">2003-01-01T23:00:00</ns0:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339662r18818r4">
+    <ns0:rrule xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:nodeID="r1260339662r18818r5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339662r18818r4">
+    <ns0:dtstart xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/icaltzd#dateTime">2003-01-01T11:30:00</ns0:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339662r18818r4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339662r18818r5">
+    <ns0:freq xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">WEEKLY</ns0:freq>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339662r18818r5">
+    <ns0:byday xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">WE,TH,FR,SA,SU</ns0:byday>
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="r1260339564r18552r1">
+    <ns0:prodid xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">-//Dan C//edited with emacs//EN</ns0:prodid>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r1">
+    <ns0:version xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">2.0</ns0:version>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r1">
+    <ns0:calscale xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">GREGORIAN</ns0:calscale>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vcalendar"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r1">
+    <ns0:component xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:resource="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r1">
+    <ns0:component xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:resource="http://www.w3.org/2002/12/cal/test/geo1#dec09"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r1">
+    <ns0:component xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:resource="http://www.w3.org/2002/12/cal/tzd/America/New_York#tz"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r2">
+    <rdf:rest rdf:nodeID="r1260339564r18552r3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r2">
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.442673</rdf:first>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r3">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r3">
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-79.945815</rdf:first>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r4">
+    <ns0:rrule xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:nodeID="r1260339564r18552r5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r4">
+    <ns0:tzname xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">EST</ns0:tzname>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r4">
+    <ns0:dtstart xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/icaltzd#dateTime">1970-10-25T02:00:00</ns0:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r4">
+    <ns0:tzoffsetto xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">-0500</ns0:tzoffsetto>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r4">
+    <ns0:tzoffsetfrom xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">-0400</ns0:tzoffsetfrom>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r5">
+    <ns0:freq xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">YEARLY</ns0:freq>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r5">
+    <ns0:byday xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">-1SU</ns0:byday>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r5">
+    <ns0:bymonth xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">10</ns0:bymonth>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r5">
+    <ns0:interval xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns0:interval>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r6">
+    <ns0:rrule xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:nodeID="r1260339564r18552r7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r6">
+    <ns0:tzname xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">EDT</ns0:tzname>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r6">
+    <ns0:dtstart xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/icaltzd#dateTime">1970-04-05T02:00:00</ns0:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r6">
+    <ns0:tzoffsetto xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">-0400</ns0:tzoffsetto>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r6">
+    <ns0:tzoffsetfrom xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">-0500</ns0:tzoffsetfrom>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r7">
+    <ns0:freq xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">YEARLY</ns0:freq>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r7">
+    <ns0:byday xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">1SU</ns0:byday>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r7">
+    <ns0:bymonth xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">4</ns0:bymonth>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r7">
+    <ns0:interval xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns0:interval>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/tzd/America/New_York#tz">
+    <ns0:tzid xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">/softwarestudio.org/Olson_20011030_5/America/New_York</ns0:tzid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/tzd/America/New_York#tz">
+    <ns0:x-lic-location xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">America/New_York</ns0:x-lic-location>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/tzd/America/New_York#tz">
+    <ns0:daylight xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:nodeID="r1260339564r18552r6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/tzd/America/New_York#tz">
+    <ns0:standard xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:nodeID="r1260339564r18552r4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/tzd/America/New_York#tz">
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vtimezone"/>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#dec09" xmlns:cal="http://www.w3.org/2002/12/cal/icaltzd#">
+    <cal:uid>dec09#8c3349c4-b240-4d50-997e-bd0d28044010</cal:uid>
+    <cal:dtend rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2009-12-16T16:00:00</cal:dtend>
+    <cal:dtstart rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2009-12-16T13:00:00</cal:dtstart>
+    <cal:summary>Lets party like its 1999</cal:summary>
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#addtest" xmlns:cal="http://www.w3.org/2002/12/cal/icaltzd#">
+    <cal:uid>dec09#59b19deb-2a2e-4712-9ef3-6b9b77da272c</cal:uid>
+    <cal:dtend rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2009-12-21T16:00:00</cal:dtend>
+    <cal:dtstart rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2009-12-21T13:00:00</cal:dtstart>
+    <cal:summary>Add Test</cal:summary>
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <ns0:geo xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:nodeID="r1260339564r18552r2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <ns0:uid xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">CDC474D4-1393-11D7-9A2C-000393914268</ns0:uid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <ns0:url xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:resource="http://kanzaki.com/works/2004/cal/0406vocab.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <ns0:dtend xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/tzd/America/New_York#tz">2003-01-08T14:00:00</ns0:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <ns0:dtstamp xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-12-19T20:53:57Z</ns0:dtstamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <ns0:dtstart xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/tzd/America/New_York#tz">2003-01-08T13:00:00</ns0:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <ns0:summary xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">icalendaring #rdfig meeting</ns0:summary>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <ns0:sequence xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns0:sequence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/12/cal/test/geo1#CDC474D4-1393-11D7-9A2C-000393914268">
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+  </rdf:Description>
+
+	<foaf:Person rdf:about="#dan">
+	  <foaf:name>Dan Brickley</foaf:name>
+	  <foaf:mbox_sha1sum>241021fb0e6289f92815fc210f9e9137262c252e</foaf:mbox_sha1sum>
+	  <foaf:homepage rdf:resource="http://danbri.org/" />
+	  <foaf:phone>tel:123456789</foaf:phone>
+	  <foaf:img rdf:resource="/images/me.jpg" />
+	  <foaf:phone>tel:1234 2345</foaf:phone>
+	</foaf:Person>
+
+	<foaf:Person rdf:about="uri:dan84">
+	  <foaf:name>Dan Brickley Geotagged</foaf:name>
+	  <foaf:homepage dc:title="Dan's home page" 
+			 rdf:resource="http://danbri.org/"/>
+	  <foaf:phone>tel:123456700</foaf:phone>
+	  <foaf:based_near geo84:lat="51.47026" geo84:long="-2.59466"/>
+	  <rdfs:seeAlso rdf:resource="http:/danbri.org/foaf.rdf"/>
+	</foaf:Person>
+
+
+	<foaf:Person rdf:about="uri:frodo">
+	  <foaf:name>Frodo Baggins</foaf:name>
+	  <foaf:homepage rdf:resource="uri:the-shire" />
+	  <foaf:phone>tel:44 2324543</foaf:phone>
+	  <foaf:nick>Frodo</foaf:nick>
+	</foaf:Person>
+
+	<foaf:Person rdf:about="uri:samwise">
+	  <foaf:name>Samwise Gamgee</foaf:name>
+	  <foaf:homepage rdf:resource="http://en.wikipedia.org/wiki/Samwise_Gamgee" />
+	  <foaf:phone>tel:88 43243242</foaf:phone>
+	  <foaf:nick>Sam</foaf:nick>
+	</foaf:Person>
+
+	<foaf:Person rdf:about="uri:gollum">
+	  <foaf:name>Gollum</foaf:name>
+	  <foaf:homepage rdf:resource="http://en.wikipedia.org/wiki/Gollum" />
+	  <foaf:phone>tel:11 1322342</foaf:phone>
+	  <foaf:nick>Gollum</foaf:nick>
+	</foaf:Person>
+
+	<foaf:Person rdf:about="uri:1984-winston">
+	  <foaf:name>Winston Smith</foaf:name>
+	  <foaf:homepage rdf:resource="http://en.wikipedia.org/wiki/Winston_Smith" />
+	  <foaf:nick>Winston</foaf:nick>
+	</foaf:Person>
+
+	<foaf:Person rdf:about="uri:1984-obrien">
+	  <foaf:name>O'Brien</foaf:name>
+	  <foaf:homepage rdf:resource="http://en.wikipedia.org/wiki/O%27Brien_%281984%29" />
+	  <foaf:nick>O'Brien</foaf:nick>
+	</foaf:Person>
+
+<!-- James, Joyce and Mark -->
+
+	<foaf:Person rdf:about="uri:james">
+	  <foaf:name>James Smith</foaf:name>
+	  <foaf:homepage rdf:resource="http://www.example.com/James" />
+	  <foaf:phone>tel:44 2324543</foaf:phone>
+	  <foaf:nick>James</foaf:nick>
+	</foaf:Person>
+
+	<foaf:Person rdf:about="uri:joyce">
+	  <foaf:name>Joyce Reitman</foaf:name>
+	  <foaf:homepage rdf:resource="http://www.example.com/upintheair" />
+	  <foaf:phone>tel:11 4342343 32234</foaf:phone>
+	  <foaf:nick>Joyce</foaf:nick>
+	</foaf:Person>
+
+	<foaf:Person rdf:about="uri:mark">
+	  <foaf:name>Mark Toyama</foaf:name>
+	  <foaf:homepage rdf:resource="http://www.example.com/satou" />
+	  <foaf:phone>tel:81 911 999 000</foaf:phone>
+	  <foaf:nick>Mark</foaf:nick>
+	  <foaf:based_near geo84:lat="51.47026" geo84:long="-2.59466"/>
+	</foaf:Person>
+
+  <rdf:Description rdf:about="uri:campingtime" xmlns:cal="http://www.w3.org/2002/12/cal/icaltzd#">
+    <cal:uid>uri:campingtime</cal:uid>
+    <cal:dtstart rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2010-01-26T13:00:00</cal:dtstart>
+    <cal:dtend rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2010-01-26T16:00:00</cal:dtend>
+    <cal:summary>Weekend Camping Trip</cal:summary>
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+    <cal:geo rdf:nodeID="r1260339564r18552r2"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="r1260339564r18552r2">
+    <rdf:rest rdf:nodeID="r1260339564r18552r3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r2">
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.442673</rdf:first>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r3">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="r1260339564r18552r3">
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-79.945815</rdf:first>
+  </rdf:Description>
+
+
+</rdf:RDF>
+
