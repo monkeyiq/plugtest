@@ -53,6 +53,12 @@
 	xml:id="wingb">Wing-B at 11am</text:meta>.
       </text:p>
 
+      <text:p>
+	This ODF file uses a single manifest.rdf to contain all the
+	RDF/XML. The manifest.rdf should be fairly human readable as
+	well.
+      </text:p>
+
     </office:text>
   </office:body>
 </office:document-content>
