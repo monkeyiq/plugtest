@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://calligra-suite.org/rdf/prefixmapping/list">
+    <rdf:first>
+      <rdf:Description>
+        <ns1:prefix xmlns:ns1="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cal:</ns1:prefix>
+        <ns2:url xmlns:ns2="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2002/12/cal/icaltzd#</ns2:url>
+      </rdf:Description>
+    </rdf:first>
+    <rdf:rest>
+      <rdf:Description>
+        <rdf:first>
+          <rdf:Description>
+            <ns3:prefix xmlns:ns3="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cite:</ns3:prefix>
+            <ns4:url xmlns:ns4="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://docs.oasis-open.org/prototype/opendocument/citation#</ns4:url>
+          </rdf:Description>
+        </rdf:first>
+        <rdf:rest>
+          <rdf:Description>
+            <rdf:first>
+              <rdf:Description>
+                <ns5:prefix xmlns:ns5="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dcterms:</ns5:prefix>
+                <ns6:url xmlns:ns6="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dublincore.org/documents/dcmi-terms/#</ns6:url>
+              </rdf:Description>
+            </rdf:first>
+            <rdf:rest>
+              <rdf:Description>
+                <rdf:first>
+                  <rdf:Description>
+                    <ns7:prefix xmlns:ns7="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foaf:</ns7:prefix>
+                    <ns8:url xmlns:ns8="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/</ns8:url>
+                  </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                  <rdf:Description>
+                    <rdf:first>
+                      <rdf:Description>
+                        <ns9:prefix xmlns:ns9="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geo84:</ns9:prefix>
+                        <ns10:url xmlns:ns10="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2003/01/geo/wgs84_pos#</ns10:url>
+                      </rdf:Description>
+                    </rdf:first>
+                    <rdf:rest>
+                      <rdf:Description>
+                        <rdf:first>
+                          <rdf:Description>
+                            <ns11:prefix xmlns:ns11="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">odf:</ns11:prefix>
+                            <ns12:url xmlns:ns12="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://docs.oasis-open.org/opendocument/meta/package/odf#</ns12:url>
+                          </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                          <rdf:Description>
+                            <rdf:first>
+                              <rdf:Description>
+                                <ns13:prefix xmlns:ns13="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pkg:</ns13:prefix>
+                                <ns14:url xmlns:ns14="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://docs.oasis-open.org/opendocument/meta/package/common#</ns14:url>
+                              </rdf:Description>
+                            </rdf:first>
+                            <rdf:rest>
+                              <rdf:Description>
+                                <rdf:first>
+                                  <rdf:Description>
+                                    <ns15:prefix xmlns:ns15="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rdf:</ns15:prefix>
+                                    <ns16:url xmlns:ns16="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/1999/02/22-rdf-syntax-ns#</ns16:url>
+                                  </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                  <rdf:Description>
+                                    <rdf:first>
+                                      <rdf:Description>
+                                        <ns17:prefix xmlns:ns17="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xhtml:</ns17:prefix>
+                                        <ns18:url xmlns:ns18="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/1999/xhtml</ns18:url>
+                                      </rdf:Description>
+                                    </rdf:first>
+                                    <rdf:rest>
+                                      <rdf:Description>
+                                        <rdf:first>
+                                          <rdf:Description>
+                                            <ns19:prefix xmlns:ns19="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xsd:</ns19:prefix>
+                                            <ns20:url xmlns:ns20="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2001/XMLSchema</ns20:url>
+                                          </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                          <rdf:Description>
+                                            <rdf:first>
+                                              <rdf:Description>
+                                                <ns21:prefix xmlns:ns21="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xsi:</ns21:prefix>
+                                                <ns22:url xmlns:ns22="http://calligra-suite.org/rdf/prefixmapping/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.w3.org/2001/XMLSchema-instance</ns22:url>
+                                              </rdf:Description>
+                                            </rdf:first>
+                                            <rdf:rest>
+                                              <rdf:Description>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                              </rdf:Description>
+                                            </rdf:rest>
+                                          </rdf:Description>
+                                        </rdf:rest>
+                                      </rdf:Description>
+                                    </rdf:rest>
+                                  </rdf:Description>
+                                </rdf:rest>
+                              </rdf:Description>
+                            </rdf:rest>
+                          </rdf:Description>
+                        </rdf:rest>
+                      </rdf:Description>
+                    </rdf:rest>
+                  </rdf:Description>
+                </rdf:rest>
+              </rdf:Description>
+            </rdf:rest>
+          </rdf:Description>
+        </rdf:rest>
+      </rdf:Description>
+    </rdf:rest>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://calligra-suite.org/rdf/user-stylesheets/KoRdfCalendarEvent/list">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://calligra-suite.org/rdf/user-stylesheets/KoRdfFoaF/list">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://calligra-suite.org/rdf/user-stylesheets/KoRdfLocation/list">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <ns23:Element xmlns:ns23="http://docs.oasis-open.org/opendocument/meta/package/odf#" rdf:about="uri:example-element-1">
+    <ns24:idref xmlns:ns24="http://docs.oasis-open.org/opendocument/meta/package/common#">id_cite1</ns24:idref>
+  </ns23:Element>
+  <ns25:Element xmlns:ns25="http://docs.oasis-open.org/opendocument/meta/package/odf#" rdf:about="uri:example-element-2">
+    <ns26:idref xmlns:ns26="http://docs.oasis-open.org/opendocument/meta/package/common#">id_world_r1</ns26:idref>
+  </ns25:Element>
+  <ns27:Element xmlns:ns27="http://docs.oasis-open.org/opendocument/meta/package/odf#" rdf:about="uri:widetime">
+    <ns28:idref xmlns:ns28="http://docs.oasis-open.org/opendocument/meta/package/common#">rdfid-164dd637-fd1f-42fc-a4bd-731bfb03f190</ns28:idref>
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+    <ns29:dtend xmlns:ns29="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2010-01-26T18:00:00</ns29:dtend>
+    <ns30:dtstart xmlns:ns30="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2010-01-26T08:00:00</ns30:dtstart>
+    <ns31:geo xmlns:ns31="http://www.w3.org/2002/12/cal/icaltzd#" rdf:nodeID="r1310605901r4316r3"/>
+    <ns32:summary xmlns:ns32="http://www.w3.org/2002/12/cal/icaltzd#">This is the full meeting window</ns32:summary>
+    <ns33:uid xmlns:ns33="http://www.w3.org/2002/12/cal/icaltzd#">uri:widetime</ns33:uid>
+  </ns27:Element>
+  <ns34:Element xmlns:ns34="http://docs.oasis-open.org/opendocument/meta/package/odf#" rdf:about="uri:wingb">
+    <ns35:idref xmlns:ns35="http://docs.oasis-open.org/opendocument/meta/package/common#">rdfid-331249ca-c220-4cce-84d6-ff46c3e98207</ns35:idref>
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+    <ns36:dtend xmlns:ns36="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2010-01-26T13:00:00</ns36:dtend>
+    <ns37:dtstart xmlns:ns37="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2010-01-26T11:00:00</ns37:dtstart>
+    <ns38:geo xmlns:ns38="http://www.w3.org/2002/12/cal/icaltzd#" rdf:nodeID="r1310605901r4316r3"/>
+    <ns39:summary xmlns:ns39="http://www.w3.org/2002/12/cal/icaltzd#">Get your 11ses with tasty cakes before they all evaporate!</ns39:summary>
+    <ns40:uid xmlns:ns40="http://www.w3.org/2002/12/cal/icaltzd#">uri:wingb</ns40:uid>
+  </ns34:Element>
+  <ns41:Package xmlns:ns41="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:about="urn:uuid:51f203ce-a9bf-11de-8f3d-001cc09d970a">
+    <ns41:hasPart>
+      <ns42:ContentFile xmlns:ns42="http://docs.oasis-open.org/opendocument/meta/package/odf#">
+        <ns41:hasPart rdf:resource="uri:example-element-1"/>
+        <ns41:hasPart rdf:resource="uri:example-element-2"/>
+        <ns41:hasPart rdf:resource="uri:widetime"/>
+        <ns41:hasPart rdf:resource="uri:wingb"/>
+        <ns41:path>content.xml</ns41:path>
+      </ns42:ContentFile>
+    </ns41:hasPart>
+  </ns41:Package>
+  <rdf:Description rdf:nodeID="r1310605901r4316r3">
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0442673000e+01</rdf:first>
+    <rdf:rest>
+      <rdf:Description>
+        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-7.9945815000e+01</rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </rdf:Description>
+    </rdf:rest>
+  </rdf:Description>
+</rdf:RDF>

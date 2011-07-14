@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="uri:wingb">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">wingb</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:wingb">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:wingb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:wingb">
+    <ns0:dtend xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2010-01-26T13:00:00</ns0:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:wingb">
+    <ns0:dtstart xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2010-01-26T11:00:00</ns0:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:wingb">
+    <ns0:geo xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:resource="r1310605849r4245r2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:wingb">
+    <ns0:summary xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">Get your 11ses with tasty cakes before they all evaporate!</ns0:summary>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:wingb">
+    <ns0:uid xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">uri:wingb</ns0:uid>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:example-element-1">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">id_cite1</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:example-element-1">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:example-element-2">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">id_world_r1</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:example-element-2">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:51f203ce-a9bf-11de-8f3d-001cc09d970a">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="r1310605849r4245r1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:51f203ce-a9bf-11de-8f3d-001cc09d970a">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/common#Package"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310605849r4245r1">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="uri:example-element-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310605849r4245r1">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="uri:example-element-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310605849r4245r1">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="uri:widetime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310605849r4245r1">
+    <ns0:hasPart xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#" rdf:resource="uri:wingb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310605849r4245r1">
+    <ns0:path xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">content.xml</ns0:path>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310605849r4245r1">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#ContentFile"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310605849r4245r2">
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.442673</rdf:first>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310605849r4245r2">
+    <rdf:rest rdf:resource="r1310605849r4245r3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310605849r4245r3">
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-79.945815</rdf:first>
+  </rdf:Description>
+  <rdf:Description rdf:about="r1310605849r4245r3">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:widetime">
+    <ns0:idref xmlns:ns0="http://docs.oasis-open.org/opendocument/meta/package/common#">widetime</ns0:idref>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:widetime">
+    <rdf:type rdf:resource="http://docs.oasis-open.org/opendocument/meta/package/odf#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:widetime">
+    <rdf:type rdf:resource="http://www.w3.org/2002/12/cal/icaltzd#Vevent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:widetime">
+    <ns0:dtend xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2010-01-26T18:00:00</ns0:dtend>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:widetime">
+    <ns0:dtstart xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:datatype="http://www.w3.org/2002/12/cal/tzd/Asia/Tokyo#tz">2010-01-26T08:00:00</ns0:dtstart>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:widetime">
+    <ns0:geo xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#" rdf:resource="r1310605849r4245r2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:widetime">
+    <ns0:summary xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">This is the full meeting window</ns0:summary>
+  </rdf:Description>
+  <rdf:Description rdf:about="uri:widetime">
+    <ns0:uid xmlns:ns0="http://www.w3.org/2002/12/cal/icaltzd#">uri:widetime</ns0:uid>
+  </rdf:Description>
+</rdf:RDF>

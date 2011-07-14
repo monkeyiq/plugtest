@@ -33,30 +33,37 @@
       <text:h text:style-name="Heading" xml:id="intro">Multiple things at once...</text:h>
 
       <text:p>
-	This example document allows many things to be in scope at
-	once. So, for example, two event times are in scope at the
-	same time. This situation might arise when one has two pieces
-	of semantic information for which one is more specific than
-	the other. Consider for example a meeting with multiple
-	locations, one might like to highlight the paragraph with the
-	building that the meeting is to take place in and the specific
-	talks in that event with their room information. Likewise, the
-	whole meeting time frame might be associated with the section
-	of a document while specific meetings will have more fine
-	grained temporal information.
+This example document allows many things to be in scope at once. So,
+for example, two event times are in scope at the same time. This
+situation might arise when one has two pieces of semantic information
+for which one is more specific than the other.
       </text:p>
-
-      <text:p xml:id="widetime">
-	This paragraph has a time associated. The next reference to
-	wing-b will be also be associated with more specific time
-	information and a location. Let's meet in <text:meta
-	xml:id="wingb">Wing-B at 11am</text:meta>.
+      <text:p>
+Consider for example a meeting with multiple locations, one might like
+to highlight the paragraph with the building that the meeting is to
+take place in and the specific talks in that event with their room
+information. Likewise, the whole meeting time frame might be
+associated with the section of a document while specific meetings will
+have more fine grained temporal information.
       </text:p>
 
       <text:p>
-	This ODF file uses a single manifest.rdf to contain all the
-	RDF/XML. The manifest.rdf should be fairly human readable as
-	well.
+The two scopes are setup using markup on the paragraph element and on
+the specific block of text at the end of the next paragraph that
+contains the final three words.
+      </text:p>
+
+      <text:p xml:id="widetime">
+This paragraph has a time associated. The next reference to wing-b
+will be also be associated with more specific time information and a
+location. Let's meet in <text:meta xml:id="wingb">Wing-B at
+11am</text:meta>.
+      </text:p>
+
+      <text:p>
+This ODF file uses a single manifest.rdf to contain all the RDF/XML.
+As an added bonus, the manifest.rdf should be fairly human readable as
+well.
       </text:p>
 
     </office:text>
