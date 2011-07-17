@@ -35,7 +35,7 @@
 	</office:automatic-styles>
 	<office:body>
 		<office:text>
-			<text:h text:style-name="Heading" xml:id="intro">A Fun Weekend</text:h>
+			<text:h text:style-name="Heading" xml:id="intro" text:outline-level="1">A Fun Weekend</text:h>
 
 			<text:p>
 			  Some folks are off on an adventure, <text:meta xml:id="james1">James</text:meta>, <text:meta xml:id="joyce1">Joyce</text:meta>, and <text:meta xml:id="mark1">Mark</text:meta> are planning to nurse some Koalas and feed the Owls on a camping trip <text:meta xml:id="campingtime1">next weekend</text:meta>.

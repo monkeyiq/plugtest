@@ -1,6 +1,6 @@
 pack:
 	rm -f multi.odt
-	cd package_odt ; zip -D -X -0 ../multi.odt mimetype && find . -name .svn -prune -or -name "*~" -or -name mimetype -prune -or -print | zip  -D -X -0  -@ ../multi.odt
+	cd package_odt ; zip -D -X -0 ../multi.odt mimetype && find . -name .svn -prune -or -name "*~" -or -name mimetype -prune -or -name Makefile -prune -or -print | zip  -D -X -0  -@ ../multi.odt
 	unzip -l multi.odt
 
 install: pack

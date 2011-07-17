@@ -1,6 +1,6 @@
 pack:
 	rm -f weekend-hike.odt
-	cd package_odt ; zip -D -X -0 ../weekend-hike.odt mimetype && find . -name .svn -prune -or -name mimetype -prune -or -name "*~" -or  -print | zip -D -X -0 -@ ../weekend-hike.odt
+	cd package_odt ; zip -D -X -0 ../weekend-hike.odt mimetype && find . -name .svn -prune -or -name mimetype -prune -or -name "*~" -prune  -or -name "Makefile" -prune -or  -print | zip -D -X -0 -@ ../weekend-hike.odt
 	unzip -l weekend-hike.odt
 
 install: pack

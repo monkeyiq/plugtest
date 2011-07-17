@@ -30,7 +30,7 @@
   <office:body>
     <office:text>
 
-      <text:h text:style-name="Heading" xml:id="intro">Multiple things at once...</text:h>
+      <text:h text:style-name="Heading" xml:id="intro" text:outline-level="1">Multiple things at once...</text:h>
 
       <text:p>
 This example document allows many things to be in scope at once. So, for example, two event times are in scope at the same time. This situation might arise when one has two pieces of semantic information for which one is more specific than the other.
